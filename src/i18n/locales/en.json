@@ -1,0 +1,494 @@
+{
+  "app": {
+    "name": "Aeon Manager"
+  },
+  "languages": {
+    "english": "English"
+  },
+  "common": {
+    "appUnavailable": "Unavailable",
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "comingSoon": "Coming Soon",
+    "configure": "Configure",
+    "delete": "Delete",
+    "generate": "Generate",
+    "import": "Import",
+    "pending": "Pending",
+    "regenerate": "Regenerate",
+    "reimport": "Re-import",
+    "remove": "Remove",
+    "save": "Save",
+    "saving": "Saving...",
+    "next": "Next",
+    "show": "Show",
+    "hide": "Hide",
+    "loadingShort": "..."
+  },
+  "window": {
+    "close": "Close",
+    "minimize": "Minimize",
+    "minimizeToTray": "Minimize to tray"
+  },
+  "navigation": {
+    "accountCreate": "Create an account",
+    "calendar": "Calendar",
+    "collapse": "Collapse",
+    "gameSelection": "Game Selection",
+    "games": "Games",
+    "home": "Home",
+    "news": "News",
+    "settings": "Settings",
+    "welcome": "Welcome, {{username}}!"
+  },
+  "notifications": {
+    "backupCodeRegenerated": "Backup code regenerated successfully.",
+    "cookiesImported": "Cookies imported successfully.",
+    "cookiesRemoved": "Cookies removed successfully.",
+    "discordError": "Discord error: {{error}}. Check if Discord is running.",
+    "loggedOut": "Logged out successfully.",
+    "secondaryCodeDeleted": "Secondary code deleted successfully.",
+    "secondaryCodeGenerated": "Secondary code generated successfully.",
+    "settingsUpdateFailed": "Failed to update settings: {{error}}",
+    "sidebarUpdateFailed": "Failed to update sidebar setting: {{error}}",
+    "startupError": "Startup error: {{error}}",
+    "usernameUpdated": "Username updated successfully."
+  },
+  "logs": {
+    "configSaveError": "Config save error:",
+    "failedLoadConfig": "Failed to load config: {{error}}",
+    "failedLoadStreaks": "Failed to load streaks:",
+    "failedUpdateStreak": "Failed to update streak:"
+  },
+  "titleBar": {
+    "appName": "Aeon Manager"
+  },
+  "settings": {
+    "app": {
+      "discordActivity": {
+        "description": "Enables Discord Rich Presence",
+        "title": "Discord Activity"
+      },
+      "github": "GitHub:",
+      "language": {
+        "description": "Choose the language of the app",
+        "title": "Language"
+      },
+      "launchBackground": {
+        "description": "Aeon Manager starts hidden",
+        "title": "Launch in background"
+      },
+      "launchStartup": {
+        "description": "Aeon Manager will launch on startup",
+        "title": "Launch on startup"
+      },
+      "minimizeTray": {
+        "description": "Hide Aeon Manager to the tray when pressing minimize",
+        "title": "Minimize to tray"
+      },
+      "rewardNotifications": {
+        "description": "Enable this if you want to see Aeon Manager notifications",
+        "title": "Reward Notifications"
+      },
+      "section": "App Settings",
+      "updates": {
+        "check": "Check for updates",
+        "description": "Check for updates",
+        "title": "Updates"
+      },
+      "version": "Aeon Manager Version"
+    },
+    "cookies": {
+      "autoImport": {
+        "description": "Import your cookies to enable HoYoLAB automation via Aeon Manager",
+        "title": "Cookies Import"
+      },
+      "confirmImport": {
+        "description": "Automatically import cookies from your browser. Note: you must be logged into HoYoLAB before importing",
+        "title": "Import Cookies"
+      },
+      "confirmRemove": {
+        "description": "Remove imported HoYoLAB cookies from Aeon Manager",
+        "title": "Remove Cookies"
+      },
+      "manualImport": {
+        "description": "Manually import your HoYoLAB cookies using DevTools in your browser",
+        "title": "Manual Import"
+      },
+      "manualModal": {
+        "accountIdPlaceholder": "account_id_v2",
+        "cookieTokenPlaceholder": "cookie_token_v2",
+        "description": "Paste your HoYoLAB cookies from DevTools below.",
+        "howToButton": "How to?",
+        "requiredFields": "Both fields are required.",
+        "title": "Manual Cookie Import"
+      },
+      "remove": {
+        "description": "Remove imported HoYoLAB cookies from Aeon Manager",
+        "title": "Remove Cookies"
+      },
+      "section": "Cookies"
+    },
+    "game": {
+      "checkIn": {
+        "description": "Enable if you want to enable automated check in claim every day",
+        "title": "check in rewards"
+      },
+      "cookiesRequired": "Cookies are required",
+      "redemptionCodes": {
+        "description": "Enable automatic redemption for codes found in the Aeon Manager code database",
+        "title": "Redemption Codes"
+      },
+      "section": "Game Settings"
+    }
+  },
+  "onboarding": {
+    "continue": "Continue",
+    "eyebrow": "First setup",
+    "progress": {
+      "intro": "Aeon",
+      "cookies": "Cookies",
+      "cookieImport": "Import",
+      "games": "Games",
+      "regions": "Regions",
+      "preferences": "Settings"
+    },
+    "intro": {
+      "eyebrow": "Welcome to Aeon Manager",
+      "title": "Let Aeons handle the daily routine",
+      "description": "Aeon Manager keeps your HoYoLAB check ins, redemption codes, and reward reminders in one quiet place",
+      "start": "Start onboarding",
+      "cards": {
+        "checkins": {
+          "title": "Daily check ins",
+          "description": "Get notification about check ins or automate them"
+        },
+        "codes": {
+          "title": "Code tracking",
+          "description": "See new redemption codes for your favourite games"
+        },
+        "control": {
+          "title": "Your control",
+          "description": "Choose if you want to import cookies for automation or receive links without importing anything"
+        }
+      }
+    },
+    "cookies": {
+      "eyebrow": "Cookie access",
+      "question": "Do you want to import cookies?",
+      "description": "Choose how Aeon Manager helps you with the routine tasks. You can change this later in Settings",
+      "import": {
+        "title": "Yes, enable automation",
+        "description": "Import my HoYoLAB cookies so Aeon Manager can claim daily check ins and redeem codes automatically"
+      },
+      "links": {
+        "title": "No, links only",
+        "description": "Skip cookie import. Aeon Manager will show new redemption codes and check ins links, that I will open myself"
+      }
+    },
+    "cookieImport": {
+      "eyebrow": "Import method",
+      "title": "How would you like to import cookies?",
+      "description": "Automatic import is quickest if you are already logged into HoYoLAB in a supported browser. You can import them manually using DevTools in your browser",
+      "alreadyImported": "Cookies are imported and ready",
+      "importing": "Importing...",
+      "continue": "Continue to games",
+      "automatic": {
+        "title": "Automatic import",
+        "description": "Aeon Manager will find your HoYoLAB cookies and save the required values"
+      },
+      "manual": {
+        "title": "Manual import",
+        "description": "Paste cookie_token_v2 and account_id_v2 yourself following the instructions"
+      }
+    },
+    "games": {
+      "eyebrow": "Game selection",
+      "title": "Choose the games that you want to manage",
+      "description": "Enable the games that you play and want to receive updates about",
+      "continue": "Continue to regions"
+    },
+    "regions": {
+      "eyebrow": "Account regions",
+      "title": "Choose regions for each game",
+      "description": "Pick the regions where each enabled game has an account. Automatic code redemption will only run for those regions",
+      "noGames": "No games are enabled yet. You can go back and choose games",
+      "selectForGame": "Select account regions",
+      "backToGames": "Back to games",
+      "continue": "Continue to settings"
+    },
+    "preferences": {
+      "eyebrow": "Final preferences",
+      "title": "Configure the rest of the options",
+      "description": "Choose what should happen automatically and how app launches",
+      "cookiesNeeded": "Available after HoYoLAB cookies are imported",
+      "finish": "Finish"
+    }
+  },
+  "manualCookies": {
+    "devtools": "DevTools",
+    "devtoolsTooltip": "Ctrl+Shift+I on Windows/Linux, Cmd+Option+I on Mac, or Right Click -> Inspect",
+    "hoyolab": "HoYoLAB",
+    "step1AfterLink": "and log in to your account.",
+    "step1BeforeLink": "Go to",
+    "step2AfterTooltip": ".",
+    "step2BeforeTooltip": "Open",
+    "step3AfterTooltip": "section.",
+    "step3BeforeTooltip": "Navigate to the",
+    "step4": "Find cookie_token_v2 and account_id_v2, copy their values and paste them in the fields.",
+    "storageCookies": "Storage -> Cookies",
+    "storageCookiesTooltip": "In Chrome/Edge: Application tab -> Storage -> Cookies. In Firefox: Storage tab -> Cookies.",
+    "title": "How to get cookies"
+  },
+  "games": {
+    "cookiesReady": "Cookies Ready",
+    "disableAll": "Disable All",
+    "enableAll": "Enable All",
+    "enabled": "Enabled",
+    "enabledCount": "{{enabled}}/{{total}} games enabled",
+    "gameNotFound": "Game not found",
+    "disabled": "Disabled",
+    "regions": "Regions"
+  },
+  "gameNames": {
+    "gi": "Genshin Impact",
+    "hi3": "Honkai Impact 3rd",
+    "hsr": "Honkai: Star Rail",
+    "tot": "Tears of Themis",
+    "zzz": "Zenless Zone Zero"
+  },
+  "regions": {
+    "america": "America",
+    "asia": "Asia",
+    "europe": "Europe",
+    "twHkMo": "TW, HK, MO"
+  },
+  "home": {
+    "checkIn": "Check In",
+    "dashboardTitle": "Game Dashboard",
+    "days": "days",
+    "gameBannerAlt": "{{game}} banner",
+    "emptyDescription": "Enable at least one game to show your dashboard and redemption codes here",
+    "emptyTitle": "No Games Enabled",
+    "openGames": "Open Games",
+    "rewardQuantity": "x{{count}}",
+    "scrollLeft": "Scroll left",
+    "scrollRight": "Scroll right",
+    "streak": "Streak",
+    "today": "Today",
+    "tomorrow": "Tomorrow"
+  },
+  "codes": {
+    "active": "active",
+    "added": "Added {{date}}",
+    "chooseRegion": "Choose at least one account region for this game",
+    "copyCode": "Copy code",
+    "failedCodes": "Failed",
+    "history": "history",
+    "hideDetails": "Hide details",
+    "loading": "Loading codes...",
+    "markDone": "Mark as redeemed",
+    "markedDone": "Marked done",
+    "noActiveCodes": "No active codes right now",
+    "noRedeemedCodes": "No redeemed codes yet",
+    "notRedeemedCodes": "Not redeemed",
+    "redeem": "Redeem",
+    "retryCode": "Retry code",
+    "redeemedCodes": "Redeemed Codes",
+    "redemptionCodes": "Redemption Codes",
+    "refreshCodes": "Refresh codes",
+    "refreshHistory": "Refresh history",
+    "showDetails": "Show details",
+    "succeededCodes": "Succeeded",
+    "unmarkDone": "Mark as not redeemed",
+    "statuses": {
+      "alreadyRedeemed": "Already redeemed",
+      "expired": "Expired",
+      "failed": "Failed",
+      "missingRole": "No region account",
+      "redeemed": "Redeemed",
+      "unsupported": "Unsupported"
+    }
+  },
+  "account": {
+    "addSecondaryCode": "Add Secondary Code",
+    "backupCode": "Backup Code",
+    "backupCodeAdvice": "Save your backup codes somewhere. You'll need one to restore your account on another device",
+    "create": "Create",
+    "createAccount": "Create Account",
+    "errors": {
+      "backupCodeRequired": "Please enter your backup code",
+      "invalidBackupCodeFormat": "Invalid format. Expected username:uuid",
+      "usernameRequired": "Please enter a username",
+      "usernameCannotBeEmpty": "Username cannot be empty"
+    },
+    "loggedInAs": "Logged in as",
+    "logout": "Log out",
+    "newUsernamePlaceholder": "New username",
+    "restore": "Restore",
+    "restoreAccount": "Restore Account",
+    "secondaryCode": "Secondary Code",
+    "usernamePlaceholder": "Username",
+    "backupCodePlaceholder": "username:uuid",
+    "actions": {
+      "copyBackupCode": "Copy backup code",
+      "deleteSecondaryCode": "Delete secondary code",
+      "editUsername": "Edit username",
+      "hideBackupCode": "Hide backup code",
+      "regenerateBackupCode": "Regenerate backup code",
+      "showBackupCode": "Show backup code"
+    },
+    "confirm": {
+      "deleteSecondary": {
+        "description": "This will permanently delete your secondary backup code and it will not work anymore",
+        "title": "Delete Secondary Code?"
+      },
+      "generateSecondary": {
+        "description": "Creates a second backup code for your account that you can use to restore your account",
+        "title": "Generate Secondary Code"
+      },
+      "regenerate": {
+        "description": "This will generate a new UUID, the old one will not work anymore",
+        "title": "Regenerate Backup Code?"
+      }
+    }
+  },
+  "notification": {
+    "copyError": "Copy error"
+  },
+  "updates": {
+    "available": "Aeon Manager {{version}} is available",
+    "failed": "Failed to check for updates: {{error}}",
+    "install": "Install",
+    "installFailed": "Failed to install update: {{error}}",
+    "installing": "Installing update...",
+    "none": "Aeon Manager is up to date."
+  },
+  "placeholders": {
+    "section": "Placeholder",
+    "settingsSection": "Placeholder for section title"
+  },
+  "native": {
+    "tray": {
+      "show": "Show",
+      "exit": "Exit"
+    },
+    "discord": {
+      "state": "Watching Aeons",
+      "details": "Automates HoYoLAB"
+    },
+    "logs": {
+      "autoCheckinTickError": "Auto check in error: {{error}}",
+      "autoCodeRedemptionError": "Auto code redemption error: {{error}}",
+      "autoCheckinFailed": "Auto check in failed for {{game}}: {{error}}",
+      "failedRecordCodeAttempt": "Failed to record code redemption attempt: {{error}}",
+      "failedShowCodeRedemptionNotification": "Failed to show code redemption notification: {{error}}",
+      "failedShowCheckinNotification": "Failed to show check in notification: {{error}}",
+      "failedSyncStreak": "Failed to sync streak for {{gameId}}: {{error}}",
+      "failedUpdateStreak": "Failed to update streak for {{game}}: {{error}}",
+      "initialDiscordConnectionFailed": "Initial Discord connection failed: {{error}}"
+    },
+    "checkin": {
+      "claimed": "Claimed",
+      "alreadyClaimed": "Already claimed",
+      "unavailable": "Unavailable",
+      "resultSucceeded": "Auto check in succeeded for {{game}}",
+      "resultSkipped": "Auto check in skipped for {{game}}: {{message}}",
+      "resultFailed": "Auto check in failed for {{game}}: {{message}}",
+      "titleSuccess": "Aeon Manager claimed check in rewards",
+      "titleFailed": "Aeon Manager check in failed",
+      "singleSuccess": "{{game}} is checked in",
+      "multiSuccess": "{{count}} rewards claimed",
+      "partialFailure": "Claimed {{claimed}}/{{total}}. {{failedGames}}",
+      "failure": "Check in failed. {{failedGames}}",
+      "manualReminderTitle": "Daily check in is ready",
+      "manualReminderBody": "The daily check in day has reset. You can check in again"
+    },
+    "codes": {
+      "titleSuccess": "Aeon Manager redeemed codes",
+      "singleSuccess": "{{code}} was redeemed for {{game}} ({{region}})",
+      "multiSuccess": "{{count}} codes redeemed"
+    }
+  },
+  "errors": {
+    "common": {
+      "accessDenied": "Access denied",
+      "allRequestsFailed": "All requests failed",
+      "badHttpStatus": "Bad HTTP status code",
+      "loginCookiesExpired": "Login/cookies expired",
+      "networkError": "Network error",
+      "rateLimited": "Rate limited",
+      "unknownError": "Unknown error",
+      "unknownResponse": "Unknown response",
+      "unsupportedGameId": "Unsupported game id: {{gameId}}"
+    },
+    "account": {
+      "accountNotFound": "Account not found.",
+      "emptyServerResponse": "The account server returned an empty response",
+      "notLoggedIn": "Not logged in.",
+      "unexpectedServerResponse": "Unexpected response from server: {{response}}",
+      "unreadableServerResponse": "The account server returned a response Aeon Manager could not read",
+      "invalidUuid": "Invalid backup code UUID",
+      "usernameEmpty": "Username cannot be empty",
+      "usernameInvalid": "Username cannot contain colons or control characters",
+      "usernameTooLong": "Username max length is 16 characters"
+    },
+    "codes": {
+      "allEndpointsFailed": "All redemption endpoints failed",
+      "alreadyRedeemed": "Already redeemed",
+      "codeRequired": "Code is required",
+      "codeUnavailable": "Code is unavailable or cannot be redeemed for this account",
+      "failedFetchCodes": "Failed to fetch redemption codes",
+      "failedFetchHistory": "Failed to fetch code history",
+      "failedFetchLinkedAccounts": "Failed to fetch linked game accounts",
+      "missingRole": "No linked game account found for this region",
+      "missingRoleForRegion": "No linked game account found for {{region}}",
+      "redemptionHttp": "Redemption returned HTTP {{status}}",
+      "redemptionRetcode": "HoYoLAB returned: {{message}} (retcode {{retcode}})",
+      "redemptionUnknownResponse": "HoYoLAB returned an unknown response",
+      "regionRequired": "Region is required",
+      "redeemed": "Redeemed",
+      "rolesHttp": "HoYoLAB roles returned HTTP {{status}}",
+      "unsupported": "Code redemption is not supported for this game yet"
+    },
+    "config": {
+      "configDirMissing": "Could not find config dir"
+    },
+    "cookies": {
+      "importMissing": "No HoYoLAB cookies found. Make sure you're logged in to HoYoLAB in a supported browser",
+      "manualRequired": "Both cookie_token_v2 and account_id_v2 are required",
+      "saveFailed": "Cookies could not be saved. Check app permissions and try again",
+      "saveFailedAfterImport": "Cookies were found but could not be saved, try manual import"
+    },
+    "settings": {
+      "automationCookiesRequired": "Cookies are required for automation",
+      "emptyRegions": "regions cannot contain empty values",
+      "failedStringifyConfig": "Failed to stringify config: {{error}}",
+      "languageType": "language must be a string",
+      "regionsType": "regions must be a game-to-regions object",
+      "settingBoolean": "{{option}} must be a boolean",
+      "settingStringOrNull": "{{option}} must be a string or null",
+      "sidebarType": "sidebarcollapsed must be a boolean",
+      "unsupportedSetting": "Unsupported setting: {{option}}"
+    },
+    "streaks": {
+      "failedFetch": "Failed to fetch streaks",
+      "failedRecord": "Failed to record streak"
+    }
+  },
+  "cli": {
+    "checkin": {
+      "message": "[ok] {{game}}: {{message}}",
+      "result": "[?] {{game}}: {{message}} ({{retcode}})",
+      "success": "[ok] {{game}}: You've successfully checked in!",
+      "unavailable": "[x] {{game}}: Currently not available"
+    },
+    "errors": {
+      "cookiesRequired": "Cookies are required for automatic check in"
+    },
+    "log": {
+      "error": "Error: {{name}}\nMessage: {{message}}"
+    }
+  }
+}

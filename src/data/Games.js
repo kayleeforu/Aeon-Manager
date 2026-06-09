@@ -1,0 +1,48 @@
+export default [
+    {
+        id: "gi",
+        actID: "e202102251931481",
+        apiEndpoints: ["https://sg-hk4e-api.hoyoverse.com", "https://sg-hk4e-api.hoyolab.com", "https://hk4e-api-os.hoyoverse.com"],
+        signEndpoint: "/event/sol/sign",
+        homeEndpoint: "https://sg-hk4e-api.hoyolab.com/event/sol/home",
+        checkInURL: "https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481",
+        redeemURL: "https://genshin.hoyoverse.com/en/gift?code=",
+    },
+    {
+        id: "hsr",
+        actID: "e202303301540311",
+        apiEndpoints: ["https://sg-public-api.hoyolab.com", "https://sg-hk4e-api.hoyolab.com", "https://api-os-takumi.mihoyo.com"],
+        signEndpoint: "/event/luna/sign",
+        homeEndpoint: "https://sg-public-api.hoyolab.com/event/luna/os/home",
+        checkInURL: "https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311",
+        redeemURL: "https://hsr.hoyoverse.com/gift?code=",
+    },
+    {
+        id: "zzz",
+        actID: "e202406031448091",
+        apiEndpoints: ["https://sg-public-api.hoyolab.com"],
+        signEndpoint: "/event/luna/zzz/os/sign",
+        homeEndpoint: "https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os/home",
+        checkInURL: "https://act.hoyolab.com/bbs/event/signin/zzz/e202406031448091.html?act_id=e202406031448091",
+        redeemURL: "https://zenless.hoyoverse.com/redemption?code=",
+        signGame: "zzz"
+    },
+    {
+        id: "hi3",
+        actID: "e202110291205111",
+        apiEndpoints: ["https://sg-public-api.hoyolab.com", "https://api-os-takumi.mihoyo.com", "https://sg-hk4e-api.hoyolab.com"],
+        signEndpoint: "/event/mani/sign",
+        homeEndpoint: "https://sg-public-api.hoyolab.com/event/mani/home",
+        checkInURL: "https://act.hoyolab.com/bbs/event/signin-bh3/index.html?act_id=e202110291205111",
+        redeemURL: null,
+    },
+    {
+        id: "tot",
+        actID: "e202202281857121",
+        apiEndpoints: ["https://sg-public-api.hoyolab.com"],
+        signEndpoint: "/event/luna/os/sign",
+        homeEndpoint: "https://sg-public-api.hoyolab.com/event/luna/os/home",
+        checkInURL: "https://act.hoyolab.com/bbs/event/signin/nxx/index.html?act_id=e202202281857121",
+        redeemURL: null,
+    },
+];

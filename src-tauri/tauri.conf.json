@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Aeon Manager",
+  "version": "0.1.0",
+  "identifier": "io.github.kayleeforu.aeonmanager",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "title": "Aeon Manager",
+        "width": 1150,
+        "height": 950,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: https: data:; connect-src ipc: http://ipc.localhost https://sg-hk4e-api.hoyolab.com https://sg-public-api.hoyolab.com https://sg-act-nap-api.hoyolab.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "createUpdaterArtifacts": true,
+    "windows": {
+      "nsis": {
+        "installerIcon": "icons/icon.ico",
+        "uninstallerIcon": "icons/icon.ico"
+      }
+    },
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDVDREYyRjhGRkU4RTQ5OUIKUldTYlNZNytqeS9mWEVSL0RYYm12cVhmOTFoUnFJUkxHbkxNNWNvNWRuUEh3UFVSR2p5Ym5wOUYK",
+      "endpoints": [
+        "https://github.com/kayleeforu/aeon-manager/releases/latest/download/latest.json"
+      ]
+    }
+  }
+}
