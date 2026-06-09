@@ -23,11 +23,10 @@ Aeon Manager is an unofficial community project and is not affiliated with HoYov
 
 ## Installation Note
 Aeon Manager is not a signed app. The certificate to sign it costs a lot, and since it is a small open-source project made by one person, it is not possible to get it
+These warnings are expected for unsigned community apps. If you are unsure, you are welcome to review the source code or build the app yourself using the instructions below.
 
 Windows — Microsoft Defender SmartScreen shows a "Windows protected your PC" warning. Click More info → Run anyway to proceed.
-macOS — Gatekeeper may block the app entirely with a "developer cannot be verified" message. Go to System Settings → Privacy & Security and click Open Anyway after attempting to launch.
-
-These warnings are expected for unsigned community apps. If you are unsure, you are welcome to review the source code or build the app yourself using the instructions below.
+macOS — Gatekeeper blocks the app entirely with a "application is damaged and can't be opened" message. Go to Terminal and type `sudo xattr -rd com.apple.quarantine "/Applications/Aeon Manager.app"`.
 
 ## Features
 - First-run onboarding for choosing language, cookie mode, games, account regions, and app preferences.
