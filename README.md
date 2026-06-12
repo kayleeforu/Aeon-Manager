@@ -14,6 +14,10 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 
+<p align="center">
+  <img src="aeon-manager.gif" width="600">
+</p>
+
 Aeon Manager is a desktop app for managing HoYoLAB daily check ins and redemption codes for supported HoYoverse games.
 
 Built with Tauri, React, and Rust.
